@@ -9,7 +9,7 @@ const { response } = require('express')
 const authLogin = async ( req, res = response) => {
     const { usuario, password } = req.body
     res.json ({
-        msg: 'Autenticación del usuario.',
+        msg: 'Autenticación del usuario pendiente de implementarse!!',
         usuario,
         password
     })
@@ -17,7 +17,7 @@ const authLogin = async ( req, res = response) => {
 
 const authLoginGoogle = async ( req, res = response) => {
     res.json ({
-        msg: 'Autenticación con Google'
+        msg: 'Autenticación con Google pendiente de implementarse!!!'
     })
 }
 

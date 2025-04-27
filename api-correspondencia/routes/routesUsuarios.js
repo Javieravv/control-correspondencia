@@ -15,8 +15,6 @@ router.get('/',  userGet)
 // Traemos un usuario determinado|
 router.get('/:idUsuario',  userGetUserId)
 
-
-
 router.put('/:idUsuario', userPut)
 
 
